@@ -8,7 +8,7 @@ export default async function Page({
   const slug = (await params).catagory;
   return (
     <div>
-      {/* My Post: {slug} */}
+      My Post: {slug}
       <AdCreationForm />
     </div>
   );
